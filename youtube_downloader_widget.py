@@ -1,5 +1,5 @@
 '''
-    This is a tkinter app for downloading youtube videos in highest resolution available. It uses the pytube library to download and play the video. The user can enter youtube video url.
+    This is a tkinter app for downloading youtube videos in highest resolution available. It uses the pytube library to download and play the video. The user can enter youtube video url and the video will be downloaded inside a folder named "YouTube Videos".
 '''
 import tkinter as tk
 import ttkbootstrap as ttk
