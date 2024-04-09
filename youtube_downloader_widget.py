@@ -12,7 +12,7 @@ def clear_error():
 
 def animate_waiting_message(dot_count):
     if waiting_message_flag:
-        output_result_val.set("Waiting" + "." * dot_count)
+        output_result_val.set("Fetching video" + "." * dot_count)
         window.after(500, animate_waiting_message, (dot_count + 1) % 4)
 
 waiting_message_flag = True  # Flag to control the waiting message animation
